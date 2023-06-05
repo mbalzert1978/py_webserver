@@ -1,5 +1,9 @@
+from src.adapter.server import WebServer
+
+
 def main() -> None:
-    pass
+    s = WebServer()
+    s.run()
 
 
 if __name__ == "__main__":

@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "monad"
+name = "py_webserver"
 version = "0.1.0"
 description = ""
 authors = ["Markus Iorio <mbalzert@gmail.com>"]
@@ -27,7 +27,7 @@ target-version = ['py311']
 select = [
     "A",
     "B",
-    "D",
+    # "D",
     "E",
     "F",
     "G",
